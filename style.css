@@ -38,6 +38,7 @@ body {
     z-index: 9999;
     transition: 0.15s ease-out;
     transform: translate(-50%, -50%);
+    will-change: transform;
 }
 
 .cursor-follower {
@@ -50,6 +51,7 @@ body {
     z-index: 9999;
     transition: 0.3s cubic-bezier(0.75, -0.27, 0.3, 1.33);
     transform: translate(-50%, -50%);
+    will-change: transform;
 }
 
 .navbar {
