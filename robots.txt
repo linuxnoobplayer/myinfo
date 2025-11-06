@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Allow all essential assets
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.mp4$
+Allow: /manifest.json
+
+Sitemap: https://sudo-rogue.is-a.dev/sitemap.xml
